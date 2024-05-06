@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <main className="flex min-h-screen flex-col items-center pt-10 pb-12">
+          <main className="flex min-h-screen flex-col items-center pt-8 pb-10">
             <div className="z-10 w-full max-w-6xl items-center justify-between text-sm lg:flex">
               <Link href="/">
                 <h2 className="text-4xl">PokeDex</h2>
